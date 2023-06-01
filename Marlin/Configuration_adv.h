@@ -1456,12 +1456,6 @@
   // Show the E position (filament used) during printing
   #define LCD_SHOW_E_TOTAL
 
-<<<<<<< HEAD
-=======
-  // Display a negative temperature instead of "err"
-  #define SHOW_TEMPERATURE_BELOW_ZERO
-
->>>>>>> 92771104e5... z auto level, ubl 3x3
   /**
    * LED Control Menu
    * Add LED Control to the LCD menu

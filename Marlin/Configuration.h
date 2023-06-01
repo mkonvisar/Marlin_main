@@ -2992,11 +2992,14 @@
  *  - Download https://github.com/Desuuuu/DGUS-reloaded/releases
  *  - Copy the downloaded DWIN_SET folder to the SD card.
  */
-#define DGUS_LCD_UI RELOADED
-#if DGUS_UI_IS(MKS)
+//#define DGUS_LCD_UI_ORIGIN
+//#define DGUS_LCD_UI_FYSETC
+//#define DGUS_LCD_UI_HIPRECY
+//#define DGUS_LCD_UI_MKS
+#define DGUS_LCD_UI_RELOADED
+#if ENABLED(DGUS_LCD_UI_MKS)
   #define USE_MKS_GREEN_UI
 #endif
-//#define LCD_SERIAL_PORT 1
 
 //
 // Touch-screen LCD for Malyan M200/M300 printers
