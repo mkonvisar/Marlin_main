@@ -2125,7 +2125,7 @@
   #if ENABLED(DISTINCT_E_FACTORS)
     #define ADVANCE_K { 0.6 }     // (mm) Compression length per 1mm/s extruder speed, per extruder
   #else
-    //MKON: 0 means disabled in FW, Slicer is still able to nable it by sending M900 K0.04 ; command, 0.04 is value for PLA my printer
+    //MKON: 0 means disabled in FW, Slicer is still able to nable it by sending M900 K0.06 ; command, 0.04 is value for PLA my printer
     #define ADVANCE_K 0           // (mm) Compression length applying to all extruders
   #endif
   //#define ADVANCE_K_EXTRA       // Add a second linear advance constant, configurable with M900 L.
